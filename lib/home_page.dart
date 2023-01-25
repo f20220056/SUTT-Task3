@@ -42,8 +42,8 @@ class _Screen1State extends State<Screen1> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      resizeToAvoidBottomInset: false,
-      appBar: AppBar(
+      resizeToAvoidBottomInset: true,
+      appBar: AppBar( 
         automaticallyImplyLeading: false,
         title: Text(
           'Home',

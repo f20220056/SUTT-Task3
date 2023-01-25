@@ -6,11 +6,6 @@ import 'package:sutt_task2/train_list.dart';
 
 DatabaseReference db = FirebaseDatabase.instance.ref('users');
 
-void updateName() async {
-  db
-        .child('${user!.uid}/name')
-        .set(user!.displayName);
-}
 
 Future<Train?> getBookmarkedTrains() async {
   var bookmarks = (await db.child('${user!.uid}/bookmarks').get()).value as Map;
@@ -21,7 +16,6 @@ Future<Train?> getBookmarkedTrains() async {
   }
   if (details.isEmpty) return null;
   return Train(data: details, status: true, message: "", timestamp: 0);
-  return (await (db.child('${user!.uid}/bookmarks').get())).value as Train;
 }
 
 // void updatePic() async {
@@ -30,3 +24,6 @@ Future<Train?> getBookmarkedTrains() async {
 //   });
 // }
 
+void updateName() async {
+  db.child('${user!.uid}/name').set(user!.displayName);
+}

@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "121458215316",
+    "project_id": "sutt-task2",
+    "storage_bucket": "sutt-task2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121458215316:android:feac3c1dc15171b09da781",
+        "android_client_info": {
+          "package_name": "com.example.sutt_task2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "121458215316-9lj35ame4m9cka6hngs3tb0004ieem5c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQZAkZExXNPrg12o4hP6mruwFztxdM-uM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "121458215316-9lj35ame4m9cka6hngs3tb0004ieem5c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "121458215316-jtmjbcomhs0ifdl3v7emipjn40ohrgi0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.shubham.suttTask2"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

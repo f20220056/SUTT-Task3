@@ -126,8 +126,8 @@ class _TrainListState extends ConsumerState<TrainList> {
                                             ref
                                                 .read(isBookmarkedProvider
                                                     .notifier)
-                                                .toggleBookmark(train_number_, snapshot.data!.data[index]);
-
+                                                .toggleBookmark(train_number_,
+                                                    snapshot.data!.data[index]);
                                           }),
                                           iconSize: 30,
                                           icon: (isBookmarked[train_number_] ??
